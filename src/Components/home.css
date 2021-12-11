@@ -1,0 +1,52 @@
+.header{
+    display:flex;
+    background-color:#DBABBE;
+    justify-content: space-between;
+    flex:1;
+    padding:12px;
+    position: relative;
+    align-items: center;
+}
+
+.menu{
+    background-color: #DBABBE;
+    display:flex;
+    flex:1;
+    justify-content: flex-end;
+}
+.menu-icon{
+    /* font-size:24px; */
+    height:36px;
+    display: flex;
+    align-items: center;
+}
+
+.mobile-menu{
+    display:none;
+}
+.web-menu{
+    display:flex;
+    margin-right: 25px;
+    padding-right: 50px;
+}
+
+.logo{
+    display:flex;
+    font-size: 20px;
+    color: #4d194d;
+    font-family: 'Dancing Script', cursive;
+     margin-left:25px;
+     padding-left: 50px;
+}
+@media only screen and (max-width:720px){
+    .mobile-menu{
+        display:flex;
+    }
+    .web-menu{
+        display:none;
+    }
+    .logo{
+        font-size:19px;
+        margin-left:-50px;
+    }
+}

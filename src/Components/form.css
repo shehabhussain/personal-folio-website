@@ -1,0 +1,121 @@
+.contact-form{
+    margin-top: 30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.labels{
+    Width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+    margin-bottom:1px;
+    padding-top: 6px;
+    padding-bottom: 8px;
+    
+}
+.fn-txt{
+    Width: 30%;
+    height: 40px;
+    font-size: medium;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 4px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}
+.ln-txt{
+    Width: 30%;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: medium;
+    text-align: center; 
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+.message{
+  Width: 30%;
+  height:100px;
+  margin-top: 10px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  display: flex;
+  margin-top: 10px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  resize:vertical;
+}
+.submit-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:30%;
+    margin-top: 20px;
+    padding:10px 5px;
+    font-size: 18px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #34a0a4;
+    cursor: pointer;
+}
+.submit-btn:hover{
+    color:white;
+}
+
+@media only screen and (max-width:720px){
+  
+.labels{
+    width:100%;
+    font-size: 20px;
+    display: flex;
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+ .message {
+    width:100%;
+    font-size: 18px;
+    border-radius: 15px;
+    
+}
+.fn-txt {
+    width:100%;
+    font-size: 18px;
+    box-sizing: border-box;
+    height: 45px;
+    border-radius: 15px;
+    outline: none;
+}
+.ln-txt{
+    width:100%; 
+    font-size: 18px;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 15px;
+    height: 45px;
+}
+.submit-btn{
+    margin-top: 20px;
+    padding:10px 5px;
+    font-size: 18px;
+    border-radius: 10px;
+    width:100%;
+    background-color: #34a0a4;
+}
+.submit-btn:hover{
+    color:white;
+}
+}
