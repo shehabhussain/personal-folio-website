@@ -1,8 +1,17 @@
 export const ProjectData = [
 	{
+		id: 5,
+		title: "Currency Converter",
+		about: "A fully responsive and simple currency converter that converts various types of currencies and crypto currencies with the help of free api that fetches realtime currency prices. In the web version of the app there is news feed on the either sides of the currency converter.",
+		tags: ["ReactJs", "API", "HTML", "CSS", "JavaScript"],
+		demo: "https://shehab-currency-converter.netlify.app/",
+		github: "https://github.com/shehabhussain/currency-converter",
+		image: require("./images/currency.png").default,
+	},
+	{
 		id: 1,
 		title: "Form",
-		about: "A simple form that takes in user details and lets you go back and edit the details before the submission",
+		about: "A simple form that takes in user details and lets you go back and edit the details before the submission.",
 		tags: ["ReactJs", "HTML", "CSS", "JavaScript"],
 		demo: "https://shehabhussain.github.io/form/",
 		github: "https://github.com/shehabhussain/form",
@@ -11,7 +20,7 @@ export const ProjectData = [
 	{
 		id: 2,
 		title: "Amazon clone",
-		about: "Created the landing page of amazon using HTML, CSS, and JavaScript in React JS",
+		about: "Created the landing page of amazon using HTML, CSS, and JavaScript in React JS.",
 		tags: [
 			"ReactJs",
 			"HTML",
@@ -27,7 +36,7 @@ export const ProjectData = [
 	{
 		id: 3,
 		title: "ToDo App",
-		about: "A fully functional and responsive ToDo web page  with task complete and delete functionality",
+		about: "A fully functional and responsive ToDo web page  with task complete and delete functionality.",
 		tags: ["ReactJs", "HTML", "CSS", "JavaScript", "React hooks"],
 		demo: "https://shehabhussain.github.io/todo-app/",
 		github: "https://github.com/shehabhussain/todo-app",
@@ -36,9 +45,9 @@ export const ProjectData = [
 	{
 		id: 4,
 		title: "Portfolio website",
-		about: "A simple and fully responsive website that showcases different sections such as my skills and portfolio and lets people download my resume",
-		tags: ["ReactJs", "HTML", "CSS", "JavaScript"],
-		demo: "https://shehabhussain.github.io/portfolio-website/",
+		about: "A simple and fully responsive website that showcases different sections such as my skills and portfolio and lets people download my resume on top of that the form is connected to firebase firestore database.",
+		tags: ["ReactJs","Firebase", "HTML", "CSS", "JavaScript"],
+		demo: "https://shehabhussain.netlify.app/",
 		github: "https://github.com/shehabhussain/portfolio-website",
 		image: require("./images/portfolio.png").default,
 	},

@@ -1,15 +1,17 @@
 .project-card{
+    border-radius:14px;
+    background-color: #D9EEFD;
     flex:1;
     display:flex;
     justify-content: center;
     align-items: center;
-    margin:16px 0px;
-    padding:8px 0px;
+    margin:16px 8px;
+    padding:20px 8px;
     margin-bottom:60px;
+    box-shadow: 2px 10px 8px 0 rgba(0, 0, 0, 0.2), 2px 10px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .project-photo{
     width:40%;
-    
 }
 .project-info{
     margin-right:24px;
@@ -19,8 +21,6 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-
-    
 }
 .project-title{
     font-size: 20px;

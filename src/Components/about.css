@@ -4,7 +4,7 @@
 .about-top{
     display:flex;
     justify-content: center;
-align-items: center;
+    align-items: center;
 }
 .about-bottom{
     margin-top:25px;
@@ -30,6 +30,7 @@ align-items: center;
         align-items: center;
     }
     .picture{
+        margin-top: 20px;
         height:350px; 
     }
     .about-info{
