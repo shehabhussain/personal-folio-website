@@ -26,6 +26,37 @@ export const SkillsData = [
 					<i class="devicon-css3-plain-wordmark colored"></i>
 				),
 			},
+			{
+				name: "GIT",
+				icon: (
+					
+					<i class="devicon-git-plain colored"></i>
+				),
+			},
+			{
+				name: "SQL",
+				icon: (
+					
+					
+					<i class="devicon-mysql-plain-wordmark colored"></i>
+          
+				),
+			},
+			{
+				name: "Excel",
+				icon: (
+					<img 
+					src={
+						require("./images/excel.png")
+							.default
+					}
+					alt="excel"
+					className="excel"
+					/>
+				),
+			},
+
+			
 		],
 	},
 ];
