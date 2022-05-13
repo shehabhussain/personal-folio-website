@@ -23,7 +23,7 @@ const Contact = () => {
 					<a
 						download
 						href={
-							require("../Components/assets/shehab_resume.pdf")
+							require("../Components/assets/Shehab Iqbal Al Hussain-Resume.pdf")
 								.default
 						}
 					>
