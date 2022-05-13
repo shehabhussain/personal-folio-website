@@ -55,6 +55,19 @@ export const SkillsData = [
 					/>
 				),
 			},
+			{
+				name: "Power BI",
+				icon: (
+					<img 
+					src={
+						require("./images/powerbi.png")
+							.default
+					}
+					alt="powerbi"
+					className="powerbi"
+					/>
+				),
+			},
 
 			
 		],
